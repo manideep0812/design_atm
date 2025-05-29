@@ -1,0 +1,56 @@
+requirements for atm:
+
+account selection - saving or current
+			- account details
+				- account name
+				- account number
+				- card number
+				- pin
+				- balance
+
+atm inputs - card insertion directly scans details(here we take as input variables),account type,transaction type, amount, pin
+
+
+transaction type - withdrawal,deposit,check balance
+			- amount
+pin verification state
+send notification (sms and email) to phone with balance
+
+
+create class account:
+ variables name,phone no,account number,card number,pin,initial balance(0)
+
+create class updatebalance:
+  variables account number, balance
+  methods : credit , debit, check balance
+
+create class pin verification :
+  variables card number,pin
+  methods : checkPin and returns bool
+
+create class withdrawal:
+  variables: amount,state
+  methods: take amount input and call updatebalance method from account class
+
+create class deposit:
+  variables: amount,state
+  method : take amount input and call update method from account class
+
+create class check balance:
+  variables: state
+  method : call update balance from account section
+
+create send notification:
+  variables: state
+  method : send notification via sms, email
+
+ 
+
+  
+
+
+
+ 
+
+
+

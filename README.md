@@ -1,6 +1,6 @@
-# ATM Pattern Recognition - Learning Repository
+# ATM  - Learning Repository
 
-Welcome to the **ATM Pattern Recognition** repository!  
+Welcome to the **ATM** repository!  
 This project is part of my learning journey in understanding both design patterns and pattern recognition in code, with a focus on ATM (Automated Teller Machine) logic and simulation.
 
 ---
